@@ -307,8 +307,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: created by RK.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f3796d9a9d76b5545be8f4d3e74ffd60, type: 2}
+  m_sharedMaterial: {fileID: 21519397309644374, guid: f3796d9a9d76b5545be8f4d3e74ffd60,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -655,8 +656,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: FIREBALL GAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e85f1cf0bfd4d1447bed2bc737c47be7, type: 2}
+  m_sharedMaterial: {fileID: 21069318434546836, guid: e85f1cf0bfd4d1447bed2bc737c47be7,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -790,8 +792,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: REPLAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4f372c329adda324b8e34cc0e26c4cff, type: 2}
+  m_sharedMaterial: {fileID: 21509031896957856, guid: 4f372c329adda324b8e34cc0e26c4cff,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -965,8 +968,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Thank you for playing!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4f372c329adda324b8e34cc0e26c4cff, type: 2}
+  m_sharedMaterial: {fileID: 21509031896957856, guid: 4f372c329adda324b8e34cc0e26c4cff,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1149,15 +1153,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1831079895, guid: b67cf4407d6b8884cb177e6667c6bb59, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300004, guid: 7f83de9ce1b2e9a4882fa64589108f14, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

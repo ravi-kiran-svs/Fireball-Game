@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: b67cf4407d6b8884cb177e6667c6bb59
+guid: 7f83de9ce1b2e9a4882fa64589108f14
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: StartMenu_BG
+  - first:
+      213: 21300002
+    second: StartMenu_Indicator
+  - first:
+      213: 21300004
+    second: StartMenu_ButtonDefault
+  - first:
+      213: 21300006
+    second: StartMenu_ButtonHighlighted
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -47,7 +59,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -62,8 +74,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -76,7 +88,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -88,7 +100,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -100,7 +124,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -112,18 +136,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button_0
+      name: StartMenu_BG
       rect:
         serializedVersion: 2
-        x: 24
-        y: 320
-        width: 320
-        height: 192
+        x: 13
+        y: 0
+        width: 1349
+        height: 1341
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +155,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 372977b83c7377744a57e94a98ee02dc
-      internalID: -1831079895
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartMenu_Indicator
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1076
+        width: 130
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5151414, y: 0.4261837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartMenu_ButtonDefault
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 685
+        width: 587
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 55, y: 55, z: 55, w: 55}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartMenu_ButtonHighlighted
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 433
+        width: 587
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
+      border: {x: 55, y: 55, z: 55, w: 55}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -140,7 +227,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +235,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Button_0: -1581107240
+      StartMenu_ButtonDefault: 21300004
+      StartMenu_Indicator: 21300002
+      StartMenu_ButtonHighlighted: 21300006
+      StartMenu_BG: 21300000
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
